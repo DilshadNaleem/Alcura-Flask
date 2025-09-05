@@ -222,6 +222,7 @@ def delete_disease(disease_name):
 
 
 @app.route('/api/train', methods=['POST'])
+
 def train_model():
     """Train the disease classification model"""
     try:
